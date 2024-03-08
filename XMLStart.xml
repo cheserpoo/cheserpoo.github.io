@@ -4,13 +4,21 @@
 		<Computer>L7UPLFS100-98</Computer>
 		<Cameras>
 			<CameraGroup>LifeSci-100</CameraGroup>
-			<Camera1>
+			<Camera0>
 				<Manufacturer>Lumens</Manufacturer>
 				<Model>VC-TR40N</Model>
 				<CameraURL>camera-life-sci-100.av.it.psu.edu</CameraURL>
 				<CameraChannel>(Rear, 172.16.150.149)</CameraChannel>
 				<PresetPath>/fcgi/do?id=1&amp;id=1&amp;Operation=SetDivContent&amp;cPtzControlPresetRecall=1</PresetPath>
 				<TrackingOffPath>/fcgi/do?id=1&amp;id=1&amp;begin&amp;Operation=SetDivContent&amp;cAutoTrackingStatus=0</TrackingOffPath>
+			</Camera0>
+			<Camera1>
+				<Manufacturer></Manufacturer>
+				<Model></Model>
+				<CameraURL></CameraURL>
+				<CameraChannel></CameraChannel>
+				<PresetPath></PresetPath>
+				<TrackingOffPath></TrackingOffPath>
 			</Camera1>
 			<Camera2>
 				<Manufacturer></Manufacturer>
@@ -28,14 +36,6 @@
 				<PresetPath></PresetPath>
 				<TrackingOffPath></TrackingOffPath>
 			</Camera3>
-			<Camera4>
-				<Manufacturer></Manufacturer>
-				<Model></Model>
-				<CameraURL></CameraURL>
-				<CameraChannel></CameraChannel>
-				<PresetPath></PresetPath>
-				<TrackingOffPath></TrackingOffPath>
-			</Camera4>
 		</Cameras>
 		<Audio>
 			<AudioOutDevice>Speakerphone</AudioOutDevice>
