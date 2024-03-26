@@ -164,7 +164,7 @@
 			</Camera3>
 		</Cameras>
 		<Audio>
-			<AudioOutDevice></AudioOutDevice>
+			<AudioOutDevice>Crestron</AudioOutDevice>
 			<AudioInDevice>Hi-Z</AudioInDevice>
 		</Audio>
 	</CB101A>
