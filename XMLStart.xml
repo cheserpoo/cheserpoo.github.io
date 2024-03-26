@@ -129,21 +129,21 @@
 	<CB101A>
 		<Computer>L7UPCMP101A-7</Computer>
 		<Cameras>
-			<CameraGroup></CameraGroup>
+			<CameraGroup>CB-110</CameraGroup>
 			<Camera0>
-				<Manufacturer></Manufacturer>
-				<Model></Model>
-				<CameraURL></CameraURL>
-				<CameraChannel></CameraChannel>
-				<PresetPath></PresetPath>
-				<TrackingOffPath></TrackingOffPath>
+				<Manufacturer>Lumens</Manufacturer>
+				<Model>VC-TR40N</Model>
+				<CameraURL>camera-tracking-cb-110.av.it.psu.edu</CameraURL>
+				<CameraChannel>(Tracking,172.28.104.30)</CameraChannel>
+				<PresetPath>/fcgi/do?id=1&amp;id=1&amp;Operation=SetDivContent&amp;cPtzControlPresetRecall=1</PresetPath>
+				<TrackingOffPath>/fcgi/do?id=1&amp;id=1&amp;begin&amp;Operation=SetDivContent&amp;cAutoTrackingStatus=0</TrackingOffPath>
 			</Camera0>
 			<Camera1>
-				<Manufacturer></Manufacturer>
-				<Model></Model>
-				<CameraURL></CameraURL>
-				<CameraChannel></CameraChannel>
-				<PresetPath></PresetPath>
+				<Manufacturer>PTZ Optics</Manufacturer>
+				<Model>PT-30X-SDI-xx-G2</Model>
+				<CameraURL>camera-ptz-cb-110.av.it.psu.edu</CameraURL>
+				<CameraChannel>(PTZ, 172.28.104.29)</CameraChannel>
+				<PresetPath>/cgi-bin/ptzctrl.cgi?ptzcmd&amp;poscall&amp;0</PresetPath>
 				<TrackingOffPath></TrackingOffPath>
 			</Camera1>
 			<Camera2>
