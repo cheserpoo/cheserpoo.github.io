@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Room>
-	<CB110>
+<Rooms>
+	<Room>
+		<Name>CB110</Name>
 		<Computer>DESKTOP-QM6IV1T</Computer>
 		<Cameras>
 			<CameraGroup>CB-110</CameraGroup>
@@ -41,8 +42,9 @@
 			<AudioOutDevice></AudioOutDevice>
 			<AudioInDevice></AudioInDevice>
 		</Audio>
-	</CB110>
-	<LifeSci100>
+	</Room>
+	<Room>
+		<Name>LifeSci100</Name>
 		<Computer>L7UPLFS100-98</Computer>
 		<Cameras>
 			<CameraGroup>LifeSci-100</CameraGroup>
@@ -83,8 +85,9 @@
 			<AudioOutDevice>Speakerphone</AudioOutDevice>
 			<AudioInDevice>Crestron</AudioInDevice>
 		</Audio>
-	</LifeSci100>
-	<Testing>
+	</Room>
+	<Room>
+		<Name>Testing</Name>
 		<Computer>L7UPCMP110-118</Computer>
 		<Cameras>
 			<CameraGroup>CB-110</CameraGroup>
@@ -125,8 +128,9 @@
 			<AudioOutDevice></AudioOutDevice>
 			<AudioInDevice></AudioInDevice>
 		</Audio>
-	</Testing>
-	<CB101A>
+	</Room>
+	<Room>
+		<Name>CB101A</Name>
 		<Computer>L7UPCMP101A-7</Computer>
 		<Cameras>
 			<CameraGroup>CB-110</CameraGroup>
@@ -167,5 +171,5 @@
 			<AudioOutDevice>Crestron</AudioOutDevice>
 			<AudioInDevice>Hi-Z</AudioInDevice>
 		</Audio>
-	</CB101A>
-</Room>
+	</Room>
+</Rooms>
